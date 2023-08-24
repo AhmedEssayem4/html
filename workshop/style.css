@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-top {
+  /* border-style: solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 300px;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  /* border-style: solid;
+  border-color: aqua; */
+  width: 30%;
+  list-style: none;
+}
+.nav-header a {
+  text-decoration: none;
+  color: #484551;
+}
+li {
+  font-size: large;
+}
+#hero-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#hero-section div {
+  display: flex;
+  gap: 2rem;
+}
+/* .container {
+  border-style: solid;
+  border-color: rgb(13, 14, 14);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+} */
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #00b39b;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Styles spécifiques pour chaque section */
+
+.section-patients {
+  background-color: aqua;
+  text-align: center;
+  padding: 100px 0;
+  text-decoration: none;
+  color: #fefeff;
+  border-style: solid;
+  border-color: rgb(6, 6, 6);
+ 
+}
+
+.section-doctors {
+  background-color: rgb(0, 89, 255);
+  text-align: center;
+  padding: 100px 0;
+  text-decoration: none;
+  color: #fefeff;
+  border-style: solid;
+  border-color: rgb(6, 6, 6);
+  
+}
+
+.section-clinics {
+  background-color: rgb(1, 1, 46);
+  text-align: center;
+  padding: 100px 0;
+  text-decoration: none;
+  color: #fbfafe;
+  border-style: solid;
+  border-color: rgb(6, 6, 6);
+  }
+  .heroina{
+  color: rgb(5, 192, 192)
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+ .baby{ 
+    width: 150px; 
+   
+}
+.footer {
+}
+

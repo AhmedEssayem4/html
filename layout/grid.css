@@ -1,0 +1,16 @@
+#container {
+  background-color: pink;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 3fr 2fr;
+}
+.child {
+  background-color: yellowgreen;
+}
+.child {
+  grid-column: 1/3;
+}
+.child {
+  grid-row: 2/5;
+}
